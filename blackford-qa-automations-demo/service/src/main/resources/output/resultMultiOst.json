@@ -1,0 +1,32 @@
+{
+  "type": "mla-output-data",
+  "version": 1,
+  "data": [
+    {
+      "studyInstanceUid": "214.1203323646.28391.22594.43764.134780588049190",
+      "files": [
+        {
+          "path": "##OUTPUT_FOLDER##/214.1203323646.28391.22594.43764.134780588049190.dcm",
+          "pushToPACS": true
+        },
+        {
+          "path": "##OUTPUT_FOLDER##/214.1203323646.28391.22594.43764.134780588049190.dcm",
+          "pushToPACS": true
+        }
+      ],
+      "metrics": {
+        "vcf": "T8, T9, T10, T11, T12, L1, L2, L3, L4",
+        "per_severity_textual_summary": "Moderate compression fracture at T8. \n",
+        "high_level_textual_summary": "Vertebral compression fracture at T8. consider further workup and treatment for osteoporosis",
+        "textual_summary": "T8:Moderate compression fracture with 28% height loss "
+      }
+    },
+    {
+      "studyInstanceUid": "214.3061003311.24717.22762.35837.59811549598743",
+      "metrics": {},
+      "error": {
+        "message": "Non compliant study: Study is not compliant with algorithm requirements. Age is below 50. error code: XER_ST_010"
+      }
+    }
+  ]
+}

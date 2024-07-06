@@ -1,0 +1,80 @@
+{
+  "type": "mla-output-data",
+  "version": 1,
+  "data": [
+    {
+      "studyInstanceUid": "214.1371900008.18327.22862.48287.250737505115497",
+      "predictions": {
+        "cac": {
+          "category": 1
+        }
+      },
+      "files": [
+        {
+          "path": "/tmp/secondarySeries/1.dcm",
+          "pushToPACS": true
+        },
+        {
+          "path": "/tmp/secondarySeries/2.dcm",
+          "pushToPACS": true
+        }
+      ],
+      "metrics": {
+        "category_range": "100-399",
+        "category": "medium",
+        "agatston_score": 2110.686328
+      }
+    },
+    {
+      "studyInstanceUid": "214.1371900008.18327.22862.48287.250737505115498",
+      "predictions": {
+        "cac": {
+          "category": 1
+        }
+      },
+      "metrics": {
+        "category_range": "100-399",
+        "category": "medium",
+        "agatston_score": 210.68632799999995
+      }
+    },
+    {
+      "studyInstanceUid": "214.1371900008.18327.22862.48287.250737505115499",
+      "predictions": {},
+      "metrics": {},
+      "error": {
+        "message": "Non compliant study: HealthCCSng could not analyze this study: patient age is under30 years old. error code: XER_ST_0002"
+      }
+    },
+    {
+      "studyInstanceUid": "214.1371900008.18327.22862.48287.250737505115500",
+      "predictions": {},
+      "metrics": {},
+      "error": {
+        "message": "Unexpected error occurred: Adapter failed to handle study for /var/tmp/214.1371900008.18327.22862.48287.250737505115500. Reason:[500 Server Error] during [POST] to [http://localhost:8090/handleStudy] [FeignClient#handleStudy(AdapterRequestPayload)]: [Oh no! something went wrong]"
+      }
+    },
+    {
+      "studyInstanceUid": "214.1371900008.18327.22862.48287.250737505115501",
+      "predictions": {},
+      "metrics": {},
+      "error": {
+        "message": "Unexpected error occurred: Adapter failed to handle study for /var/tmp/214.1371900008.18327.22862.48287.250737505115501. Reason:Read timed out executing POST http://localhost:8090/handleStudy"
+      }
+    },
+    {
+      "studyInstanceUid": "214.1371900008.18327.22862.48287.250737505115502",
+      "predictions": {},
+      "files": [
+        {
+          "path": "/metalArtifact/secondarySeries/1.dcm",
+          "pushToPACS": true
+        },
+        {
+          "path": "/metalArtifact/secondarySeries/2.dcm",
+          "pushToPACS": true
+        }
+      ],
+      "metrics": {}
+    }
+  ]

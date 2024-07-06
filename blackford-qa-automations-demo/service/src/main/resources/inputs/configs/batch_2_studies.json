@@ -1,0 +1,144 @@
+{
+  "type": "mla-output-data",
+  "version": 1,
+  "data": [
+    {
+      "studyInstanceUid": "214.1537738950.24610.22417.38331.274769846145442",
+      "predictions": {
+        "cac": {
+          "category": 1
+        }
+      },
+      "files": [
+        {
+          "path": "/marketplace/output/214.1537738950.24610.22417.38331.274769846145442.dcm",
+          "pushToPACS": true
+        },
+        {
+          "path": "/marketplace/output/214.1537738950.24610.22417.38331.274769846145442.dcm",
+          "pushToPACS": true
+        },
+        {
+          "path": "/marketplace/output/214.1537738950.24610.22417.38331.274769846145442.dcm",
+          "pushToPACS": true
+        },
+        {
+          "path": "/marketplace/output/214.1537738950.24610.22417.38331.274769846145442.dcm",
+          "pushToPACS": true
+        }
+      ],
+      "metrics": {
+        "category_range": "100-399",
+        "category": "medium",
+        "agatston_score": 210.68632799999995
+      }
+    },
+    {
+      "studyInstanceUid": "214.3334084477.14391.22970.40183.38730267874965",
+      "predictions": {
+        "cac": {
+          "category": 2
+        }
+      },
+      "files": [
+        {
+          "path": "/marketplace/output/214.3334084477.14391.22970.40183.38730267874965.dcm",
+          "pushToPACS": true
+        },
+        {
+          "path": "/marketplace/output/214.3334084477.14391.22970.40183.38730267874965.dcm",
+          "pushToPACS": true
+        },
+        {
+          "path": "/marketplace/output/214.3334084477.14391.22970.40183.38730267874965.dcm",
+          "pushToPACS": true
+        },
+        {
+          "path": "/marketplace/output/214.3334084477.14391.22970.40183.38730267874965.dcm",
+          "pushToPACS": true
+        },
+        {
+          "path": "/marketplace/output/214.3334084477.14391.22970.40183.38730267874965.dcm",
+          "pushToPACS": true
+        },
+        {
+          "path": "/marketplace/output/214.3334084477.14391.22970.40183.38730267874965.dcm",
+          "pushToPACS": true
+        },
+        {
+          "path": "/marketplace/output/214.3334084477.14391.22970.40183.38730267874965.dcm",
+          "pushToPACS": true
+        },
+        {
+          "path": "/marketplace/output/214.3334084477.14391.22970.40183.38730267874965.dcm",
+          "pushToPACS": true
+        },
+        {
+          "path": "/marketplace/output/214.3334084477.14391.22970.40183.38730267874965.dcm",
+          "pushToPACS": true
+        },
+        {
+          "path": "/marketplace/output/214.3334084477.14391.22970.40183.38730267874965.dcm",
+          "pushToPACS": true
+        },
+        {
+          "path": "/marketplace/output/214.3334084477.14391.22970.40183.38730267874965.dcm",
+          "pushToPACS": true
+        },
+        {
+          "path": "/marketplace/output/214.3334084477.14391.22970.40183.38730267874965.dcm",
+          "pushToPACS": true
+        },
+        {
+          "path": "/marketplace/output/214.3334084477.14391.22970.40183.38730267874965.dcm",
+          "pushToPACS": true
+        },
+        {
+          "path": "/marketplace/output/214.3334084477.14391.22970.40183.38730267874965.dcm",
+          "pushToPACS": true
+        },
+        {
+          "path": "/marketplace/output/214.3334084477.14391.22970.40183.38730267874965.dcm",
+          "pushToPACS": true
+        },
+        {
+          "path": "/marketplace/output/214.3334084477.14391.22970.40183.38730267874965.dcm",
+          "pushToPACS": true
+        },
+        {
+          "path": "/marketplace/output/214.3334084477.14391.22970.40183.38730267874965.dcm",
+          "pushToPACS": true
+        },
+        {
+          "path": "/marketplace/output/214.3334084477.14391.22970.40183.38730267874965.dcm",
+          "pushToPACS": true
+        },
+        {
+          "path": "/marketplace/output/214.3334084477.14391.22970.40183.38730267874965.dcm",
+          "pushToPACS": true
+        },
+        {
+          "path": "/marketplace/output/214.3334084477.14391.22970.40183.38730267874965.dcm",
+          "pushToPACS": true
+        },
+        {
+          "path": "/marketplace/output/214.3334084477.14391.22970.40183.38730267874965.dcm",
+          "pushToPACS": true
+        },
+        {
+          "path": "/marketplace/output/214.3334084477.14391.22970.40183.38730267874965.dcm",
+          "pushToPACS": true
+        },
+        {
+          "path": "/marketplace/output/214.3334084477.14391.22970.40183.38730267874965.dcm",
+          "pushToPACS": true
+        }
+      ],
+      "metrics": {
+        "category_range": "400+",
+        "category": "high",
+        "agatston_score": 845.49879128631
+      }
+    }
+  ]
+}

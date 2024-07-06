@@ -1,0 +1,20 @@
+<Configuration>
+    <status>INFO</status>
+    <Appenders>
+        <Console name="Console" target="SYSTEM_OUT">
+            <PatternLayout>
+                <pattern>%-5p | %d{yyyy-MM-dd HH:mm:ss.SSS} | [%t] | %X{X-B3-TraceId} | %X{X-B3-SpanId} | %C{2} (%F:%L) - %m%n </pattern>
+            </PatternLayout>
+        </Console>
+    </Appenders>
+
+
+    <loggers>
+        <ROOT>
+            <level>INFO</level>
+            <appender-ref>
+                <ref>Console</ref>
+            </appender-ref>
+        </ROOT>
+    </loggers>
+</Configuration>

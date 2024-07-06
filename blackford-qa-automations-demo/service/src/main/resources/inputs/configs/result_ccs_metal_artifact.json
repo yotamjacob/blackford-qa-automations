@@ -1,0 +1,17 @@
+{
+  "type": "mla-output-data",
+  "version": 1,
+  "data": [
+    {
+      "studyInstanceUid": "214.3612073671.27179.21307.45122.224373892839243",
+      "predictions": {},
+      "files": [
+        {
+          "path": "/marketplace/output/214.3612073671.27179.21307.45122.224373892839243.dcm",
+          "pushToPACS": true
+        }
+      ],
+      "metrics": {}
+    }
+  ]
+}

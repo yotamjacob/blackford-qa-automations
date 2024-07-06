@@ -1,0 +1,86 @@
+{
+  "type": "mla-output-data",
+  "version": 1,
+  "data": [
+    {
+      "studyInstanceUid": "214.1203323646.28391.22594.43764.134780588049190",
+      "files": [
+        {
+          "path": "/marketplace/output/214.1203323646.28391.22594.43764.134780588049190.dcm",
+          "pushToPACS": true
+        },
+        {
+          "path": "/marketplace/output/214.1203323646.28391.22594.43764.134780588049190.dcm",
+          "pushToPACS": true
+        }
+      ],
+      "metrics": {
+        "vcf": "T8, T9, T10, T11, T12, L1, L2, L3, L4",
+        "per_severity_textual_summary": "Moderate compression fracture at T8. \n",
+        "high_level_textual_summary": "Vertebral compression fracture at T8. consider further workup and treatment for osteoporosis",
+        "textual_summary": "T8:Moderate compression fracture with 28% height loss "
+      }
+    },
+    {
+      "studyInstanceUid": "214.3642112113.22071.22882.37738.229067079074208",
+      "files": [
+        {
+          "path": "/marketplace/output/214.3642112113.22071.22882.37738.229067079074208.dcm",
+          "pushToPACS": true
+        },
+        {
+          "path": "/marketplace/output/214.3642112113.22071.22882.37738.229067079074208.dcm",
+          "pushToPACS": true
+        },
+        {
+          "path": "/marketplace/output/214.3642112113.22071.22882.37738.229067079074208.dcm",
+          "pushToPACS": true
+        }
+      ],
+      "metrics": {
+        "vcf": "T7, T8, T9, T10, T11, T12, L1, L2, L3",
+        "per_severity_textual_summary": "Severe compression fracture at T12, L2. \nModerate compression fracture at L1. \nMild compression fracture at T11. \n",
+        "high_level_textual_summary": "Vertebral compression fracture at T11, T12, L1, L2. consider further workup and treatment for osteoporosis",
+        "textual_summary": "T11:Mild compression fracture with 23% height loss \nT12:Severe compression fracture with 59% height loss \nL1:Moderate compression fracture with 34% height loss \nL2:Severe compression fracture with 65% height loss "
+      }
+    },
+    {
+      "studyInstanceUid": "214.503392905.51952.22243.41514.148536297145021",
+      "files": [
+        {
+          "path": "/marketplace/output/214.503392905.51952.22243.41514.148536297145021.dcm",
+          "pushToPACS": true
+        },
+        {
+          "path": "/marketplace/output/214.503392905.51952.22243.41514.148536297145021.dcm",
+          "pushToPACS": true
+        }
+      ],
+      "metrics": {
+        "vcf": "T1, T2, T3, T4, T5, T6, T7, T8, T9, T10, T11, T12",
+        "per_severity_textual_summary": "Mild compression fracture at T11, T12. \nLow bone density at T12.",
+        "high_level_textual_summary": "Vertebral compression fracture at T11, T12. Low bone density at T12, consider further workup and treatment for osteoporosis",
+        "textual_summary": "T11:Mild compression fracture with 20% height loss \nT12:Mild compression fracture with 20% height loss and low bone density of 97 HU, suspicious for osteoporosis"
+      }
+    },
+    {
+      "studyInstanceUid": "214.68189906.1963.21895.49060.640243135712",
+      "files": [
+        {
+          "path": "/marketplace/output/214.68189906.1963.21895.49060.640243135712.dcm",
+          "pushToPACS": true
+        },
+        {
+          "path": "/marketplace/output/214.68189906.1963.21895.49060.640243135712.dcm",
+          "pushToPACS": true
+        }
+      ],
+      "metrics": {
+        "vcf": "T7, T8, T9, T10, T11, T12, L1, L2, L3, L4",
+        "per_severity_textual_summary": "",
+        "high_level_textual_summary": "",
+        "textual_summary": ""
+      }
+    }
+  ]
+}

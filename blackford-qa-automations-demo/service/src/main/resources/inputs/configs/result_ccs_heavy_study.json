@@ -1,0 +1,41 @@
+{
+  "type": "mla-output-data",
+  "version": 1,
+  "data": [
+    {
+      "studyInstanceUid": "214.4174629899.49112.22340.48402.138157463567204",
+      "predictions": {
+        "cac": {
+          "category": 1
+        }
+      },
+      "files": [
+        {
+          "path": "/marketplace/output/214.4174629899.49112.22340.48402.138157463567204.dcm",
+          "pushToPACS": true
+        },
+        {
+          "path": "/marketplace/output/214.4174629899.49112.22340.48402.138157463567204.dcm",
+          "pushToPACS": true
+        },
+        {
+          "path": "/marketplace/output/214.4174629899.49112.22340.48402.138157463567204.dcm",
+          "pushToPACS": true
+        },
+        {
+          "path": "/marketplace/output/214.4174629899.49112.22340.48402.138157463567204.dcm",
+          "pushToPACS": true
+        },
+        {
+          "path": "/marketplace/output/214.4174629899.49112.22340.48402.138157463567204.dcm",
+          "pushToPACS": true
+        }
+      ],
+      "metrics": {
+        "category_range": "100-399",
+        "category": "medium",
+        "agatston_score": 260.7932815551758
+      }
+    }
+  ]
+}

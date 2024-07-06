@@ -1,0 +1,25 @@
+{
+  "type": "mla-output-data",
+  "version": 1,
+  "data": [
+    {
+      "studyInstanceUid": "214.68189906.1963.21895.49060.640243135712",
+      "files": [
+        {
+          "path": "##OUTPUT_FOLDER##/214.68189906.1963.21895.49060.640243135712.dcm",
+          "pushToPACS": true
+        },
+        {
+          "path": "##OUTPUT_FOLDER##/214.68189906.1963.21895.49060.640243135712.dcm",
+          "pushToPACS": true
+        }
+      ],
+      "metrics": {
+        "vcf": "T7, T8, T9, T10, T11, T12, L1, L2, L3, L4",
+        "per_severity_textual_summary": "",
+        "high_level_textual_summary": "",
+        "textual_summary": ""
+      }
+    }
+  ]
+}

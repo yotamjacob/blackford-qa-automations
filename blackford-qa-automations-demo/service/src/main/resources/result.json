@@ -1,0 +1,636 @@
+{
+  "analytic": {
+    "opiId": "",
+    "status": "Success",
+    "resultNormal": false,
+    "allErrors": null,
+    "algorithmSpecificTextualSummary": {},
+    "algorithmFullResults": {
+      "series": [
+        {
+          "images": [],
+          "result_code": {
+            "description": "HealthCCSng could not analyze this series: non compliant volume.",
+            "key": "XER_SE_0012",
+            "priority": 113,
+            "status": "non_compliant",
+            "top_level_result_code": "XER_ST_0003"
+          },
+          "agatston_score": null,
+          "min_measured_bone_attenuation": null,
+          "series_instance_uid": "214.2775301255.1694.21867.36420.60645127416367",
+          "prediction_model_series_type": null,
+          "high_calcium_burden": null,
+          "series_id": "214.2775301255.1694.21867.36420.60645127416367",
+          "is_contrast": null,
+          "is_artifact": null,
+          "is_valid": true,
+          "prediction_model_artifact": null,
+          "calcium_burden_category": null,
+          "is_gated": null,
+          "calcium_burden_category_enum": null,
+          "extra_fields": {
+            "error": "['Traceback (most recent call last):', '  File \"/app/ALG/src/alg.py\", line 94, in _filter_series', '    slice_loc_roi_res = filter_ccs_inferencer.slice_loc_fetcher.get_data(data_uri)', '  File \"/usr/local/lib/python3.6/dist-packages/zebra_algorithms/data_fetcher.py\", line 171, in get_data', '    data = self._get_data(data_uri=data_uri)', '  File \"/app/ALG/fetch/heart_loc.py\", line 95, in _get_data', '    HU_volume, sop_uids, instance_nums, meta_data = self._get_series_data(zebra_series)', '  File \"/app/ALG/fetch/heart_loc.py\", line 73, in _get_series_data', \"    raise CTVolumeException('Failed to load series: %s' % sf.load_status[1])\", 'fetch.utils.CTVolumeException: Failed to load series: LoadingErrors.NOT_AXIAL']"
+          },
+          "prediction_model_contrast": null,
+          "prediction_model_gated": null
+        },
+        {
+          "images": [],
+          "result_code": {
+            "description": "HealthCCSng could not analyze this series: wrong input - series must contain more than 20 images.",
+            "key": "XER_SE_0002",
+            "priority": 102,
+            "status": "non_compliant",
+            "top_level_result_code": "XER_ST_0003"
+          },
+          "agatston_score": null,
+          "min_measured_bone_attenuation": null,
+          "series_instance_uid": "214.194297718.49650.23852.47339.228471315632948",
+          "prediction_model_series_type": null,
+          "high_calcium_burden": null,
+          "series_id": "214.194297718.49650.23852.47339.228471315632948",
+          "is_contrast": null,
+          "is_artifact": null,
+          "is_valid": true,
+          "prediction_model_artifact": null,
+          "calcium_burden_category": null,
+          "is_gated": null,
+          "calcium_burden_category_enum": null,
+          "extra_fields": {},
+          "prediction_model_contrast": null,
+          "prediction_model_gated": null
+        },
+        {
+          "images": [],
+          "result_code": {
+            "description": "HealthCCSng could not analyze this series: non compliant volume.",
+            "key": "XER_SE_0012",
+            "priority": 113,
+            "status": "non_compliant",
+            "top_level_result_code": "XER_ST_0003"
+          },
+          "agatston_score": null,
+          "min_measured_bone_attenuation": null,
+          "series_instance_uid": "214.2910539099.61994.21042.39976.72052524675725",
+          "prediction_model_series_type": null,
+          "high_calcium_burden": null,
+          "series_id": "214.2910539099.61994.21042.39976.72052524675725",
+          "is_contrast": null,
+          "is_artifact": null,
+          "is_valid": true,
+          "prediction_model_artifact": null,
+          "calcium_burden_category": null,
+          "is_gated": null,
+          "calcium_burden_category_enum": null,
+          "extra_fields": {
+            "error": "['Traceback (most recent call last):', '  File \"/app/ALG/src/alg.py\", line 94, in _filter_series', '    slice_loc_roi_res = filter_ccs_inferencer.slice_loc_fetcher.get_data(data_uri)', '  File \"/usr/local/lib/python3.6/dist-packages/zebra_algorithms/data_fetcher.py\", line 171, in get_data', '    data = self._get_data(data_uri=data_uri)', '  File \"/app/ALG/fetch/heart_loc.py\", line 95, in _get_data', '    HU_volume, sop_uids, instance_nums, meta_data = self._get_series_data(zebra_series)', '  File \"/app/ALG/fetch/heart_loc.py\", line 73, in _get_series_data', \"    raise CTVolumeException('Failed to load series: %s' % sf.load_status[1])\", 'fetch.utils.CTVolumeException: Failed to load series: LoadingErrors.NOT_AXIAL']"
+          },
+          "prediction_model_contrast": null,
+          "prediction_model_gated": null
+        },
+        {
+          "images": [
+            {
+              "annotations": [
+                {
+                  "features": null,
+                  "geometry": {
+                    "type": "Polygon",
+                    "coordinates": [
+                      [
+                        [
+                          312,
+                          273
+                        ],
+                        [
+                          313,
+                          272
+                        ],
+                        [
+                          315,
+                          272
+                        ],
+                        [
+                          316,
+                          271
+                        ],
+                        [
+                          319,
+                          271
+                        ],
+                        [
+                          320,
+                          270
+                        ],
+                        [
+                          321,
+                          271
+                        ],
+                        [
+                          322,
+                          271
+                        ],
+                        [
+                          322,
+                          270
+                        ],
+                        [
+                          323,
+                          269
+                        ],
+                        [
+                          325,
+                          269
+                        ],
+                        [
+                          324,
+                          268
+                        ],
+                        [
+                          324,
+                          267
+                        ],
+                        [
+                          322,
+                          267
+                        ],
+                        [
+                          321,
+                          266
+                        ],
+                        [
+                          315,
+                          266
+                        ],
+                        [
+                          314,
+                          267
+                        ],
+                        [
+                          313,
+                          267
+                        ],
+                        [
+                          312,
+                          268
+                        ],
+                        [
+                          312,
+                          273
+                        ]
+                      ]
+                    ]
+                  },
+                  "type": "Feature",
+                  "properties": {
+                    "agatston_score": 97.552512
+                  }
+                }
+              ],
+              "filePath": "/marketplace/2023062210220013/workspace/214.1490261363.64900.21705.42107.90776995818651/214.2341093814.41754.21459.39507.15125034624428/214.4187879850.64207.20900.32853.43541014912138.dcm",
+              "isSynthetic": false,
+              "overlays": [],
+              "sop_instance_uid": "214.4187879850.64207.20900.32853.43541014912138",
+              "instance_number": 60,
+              "study_instance_uid": "214.1490261363.64900.21705.42107.90776995818651",
+              "series_instance_uid": "214.2341093814.41754.21459.39507.15125034624428",
+              "synthetic_file_ref": null,
+              "is_primary_image": true,
+              "extra_fields": {},
+              "result_code": {
+                "description": null,
+                "key": "unprocessed",
+                "priority": null,
+                "status": "unprocessed",
+                "top_level_result_code": ""
+              },
+              "id": null,
+              "agatston_score": 97.552512
+            },
+            {
+              "annotations": [
+                {
+                  "features": null,
+                  "geometry": {
+                    "type": "Polygon",
+                    "coordinates": [
+                      [
+                        [
+                          319,
+                          262
+                        ],
+                        [
+                          318,
+                          262
+                        ],
+                        [
+                          317,
+                          263
+                        ],
+                        [
+                          317,
+                          265
+                        ],
+                        [
+                          316,
+                          266
+                        ],
+                        [
+                          316,
+                          267
+                        ],
+                        [
+                          315,
+                          268
+                        ],
+                        [
+                          315,
+                          271
+                        ],
+                        [
+                          314,
+                          272
+                        ],
+                        [
+                          314,
+                          275
+                        ],
+                        [
+                          315,
+                          275
+                        ],
+                        [
+                          315,
+                          274
+                        ],
+                        [
+                          317,
+                          272
+                        ],
+                        [
+                          317,
+                          271
+                        ],
+                        [
+                          318,
+                          270
+                        ],
+                        [
+                          318,
+                          269
+                        ],
+                        [
+                          319,
+                          268
+                        ],
+                        [
+                          320,
+                          268
+                        ],
+                        [
+                          321,
+                          267
+                        ],
+                        [
+                          321,
+                          266
+                        ],
+                        [
+                          320,
+                          265
+                        ],
+                        [
+                          320,
+                          264
+                        ],
+                        [
+                          319,
+                          263
+                        ],
+                        [
+                          319,
+                          262
+                        ]
+                      ]
+                    ]
+                  },
+                  "type": "Feature",
+                  "properties": {
+                    "agatston_score": 71.80948799999999
+                  }
+                }
+              ],
+              "filePath": "/marketplace/2023062210220013/workspace/214.1490261363.64900.21705.42107.90776995818651/214.2341093814.41754.21459.39507.15125034624428/214.2544938033.31906.23283.37579.148509111377630.dcm",
+              "isSynthetic": false,
+              "overlays": [],
+              "sop_instance_uid": "214.2544938033.31906.23283.37579.148509111377630",
+              "instance_number": 61,
+              "study_instance_uid": "214.1490261363.64900.21705.42107.90776995818651",
+              "series_instance_uid": "214.2341093814.41754.21459.39507.15125034624428",
+              "synthetic_file_ref": null,
+              "is_primary_image": null,
+              "extra_fields": {},
+              "result_code": {
+                "description": null,
+                "key": "unprocessed",
+                "priority": null,
+                "status": "unprocessed",
+                "top_level_result_code": ""
+              },
+              "id": null,
+              "agatston_score": 71.80948799999999
+            },
+            {
+              "annotations": [
+                {
+                  "features": null,
+                  "geometry": {
+                    "type": "Polygon",
+                    "coordinates": [
+                      [
+                        [
+                          316,
+                          259
+                        ],
+                        [
+                          316,
+                          264
+                        ],
+                        [
+                          317,
+                          265
+                        ],
+                        [
+                          317,
+                          271
+                        ],
+                        [
+                          318,
+                          272
+                        ],
+                        [
+                          318,
+                          275
+                        ],
+                        [
+                          321,
+                          275
+                        ],
+                        [
+                          320,
+                          274
+                        ],
+                        [
+                          320,
+                          265
+                        ],
+                        [
+                          319,
+                          264
+                        ],
+                        [
+                          319,
+                          262
+                        ],
+                        [
+                          318,
+                          261
+                        ],
+                        [
+                          318,
+                          260
+                        ],
+                        [
+                          317,
+                          259
+                        ],
+                        [
+                          316,
+                          259
+                        ]
+                      ]
+                    ]
+                  },
+                  "type": "Feature",
+                  "properties": {
+                    "agatston_score": 41.324327999999994
+                  }
+                }
+              ],
+              "filePath": "/marketplace/2023062210220013/workspace/214.1490261363.64900.21705.42107.90776995818651/214.2341093814.41754.21459.39507.15125034624428/214.3314593436.18968.22863.45838.197229859318714.dcm",
+              "isSynthetic": false,
+              "overlays": [],
+              "sop_instance_uid": "214.3314593436.18968.22863.45838.197229859318714",
+              "instance_number": 62,
+              "study_instance_uid": "214.1490261363.64900.21705.42107.90776995818651",
+              "series_instance_uid": "214.2341093814.41754.21459.39507.15125034624428",
+              "synthetic_file_ref": null,
+              "is_primary_image": null,
+              "extra_fields": {},
+              "result_code": {
+                "description": null,
+                "key": "unprocessed",
+                "priority": null,
+                "status": "unprocessed",
+                "top_level_result_code": ""
+              },
+              "id": null,
+              "agatston_score": 41.324327999999994
+            }
+          ],
+          "result_code": {
+            "description": null,
+            "key": "success",
+            "priority": 0,
+            "status": "success",
+            "top_level_result_code": ""
+          },
+          "agatston_score": 210.68632799999995,
+          "min_measured_bone_attenuation": null,
+          "series_instance_uid": "214.2341093814.41754.21459.39507.15125034624428",
+          "prediction_model_series_type": 0.9880555272102356,
+          "high_calcium_burden": true,
+          "series_id": "214.2341093814.41754.21459.39507.15125034624428",
+          "is_contrast": false,
+          "is_artifact": false,
+          "is_valid": true,
+          "prediction_model_artifact": 0.0,
+          "calcium_burden_category": "moderate",
+          "is_gated": false,
+          "calcium_burden_category_enum": "2",
+          "extra_fields": {},
+          "prediction_model_contrast": 0.4904942810535431,
+          "prediction_model_gated": 0.2759596109390259
+        },
+        {
+          "images": [],
+          "result_code": {
+            "description": "HealthCCSng could not analyze this series: wrong input - series must contain more than 20 images.",
+            "key": "XER_SE_0002",
+            "priority": 102,
+            "status": "non_compliant",
+            "top_level_result_code": "XER_ST_0003"
+          },
+          "agatston_score": null,
+          "min_measured_bone_attenuation": null,
+          "series_instance_uid": "214.3086754224.48351.20488.32887.65603273677226",
+          "prediction_model_series_type": null,
+          "high_calcium_burden": null,
+          "series_id": "214.3086754224.48351.20488.32887.65603273677226",
+          "is_contrast": null,
+          "is_artifact": null,
+          "is_valid": true,
+          "prediction_model_artifact": null,
+          "calcium_burden_category": null,
+          "is_gated": null,
+          "calcium_burden_category_enum": null,
+          "extra_fields": {},
+          "prediction_model_contrast": null,
+          "prediction_model_gated": null
+        },
+        {
+          "images": [],
+          "result_code": {
+            "description": "HealthCCSng could not analyze this series: wrong input - slice thickness is higher than 3.1 mm.",
+            "key": "XER_SE_0003",
+            "priority": 103,
+            "status": "non_compliant",
+            "top_level_result_code": "XER_ST_0003"
+          },
+          "agatston_score": null,
+          "min_measured_bone_attenuation": null,
+          "series_instance_uid": "214.267655184.16622.20696.45750.160655642926742",
+          "prediction_model_series_type": null,
+          "high_calcium_burden": null,
+          "series_id": "214.267655184.16622.20696.45750.160655642926742",
+          "is_contrast": null,
+          "is_artifact": null,
+          "is_valid": true,
+          "prediction_model_artifact": null,
+          "calcium_burden_category": null,
+          "is_gated": null,
+          "calcium_burden_category_enum": null,
+          "extra_fields": {},
+          "prediction_model_contrast": null,
+          "prediction_model_gated": null
+        },
+        {
+          "images": [],
+          "result_code": {
+            "description": "HealthCCSng could not analyze this series: Failed to detect bounding box around heart.",
+            "key": "XER_SE_0013",
+            "priority": 114,
+            "status": "non_compliant",
+            "top_level_result_code": "XER_ST_0003"
+          },
+          "agatston_score": null,
+          "min_measured_bone_attenuation": null,
+          "series_instance_uid": "214.369550223.27758.24393.46322.98013430168263",
+          "prediction_model_series_type": null,
+          "high_calcium_burden": null,
+          "series_id": "214.369550223.27758.24393.46322.98013430168263",
+          "is_contrast": null,
+          "is_artifact": null,
+          "is_valid": true,
+          "prediction_model_artifact": null,
+          "calcium_burden_category": null,
+          "is_gated": null,
+          "calcium_burden_category_enum": null,
+          "extra_fields": {
+            "error": "['Traceback (most recent call last):', '  File \"/app/ALG/src/alg.py\", line 135, in _filter_series', '    results = filter_ccs_inferencer.inference_pre_filters_process_series(data_uri)', '  File \"/app/ALG/inference/filter_ccs_inferencer.py\", line 71, in inference_pre_filters_process_series', '    slice_loc_fetcher=self.slice_loc_fetcher)', '  File \"/app/ALG/inference/utils.py\", line 74, in process_input', '    heart_roi_fetcher_results = heart_roi_fetcher.get_data(data_uri)', '  File \"/usr/local/lib/python3.6/dist-packages/zebra_algorithms/data_fetcher.py\", line 171, in get_data', '    data = self._get_data(data_uri=data_uri)', '  File \"/app/ALG/fetch/heart_roi.py\", line 31, in _get_data', '    series_id)', '  File \"/app/ALG/fetch/heart_roi.py\", line 152, in find_heart_bounding_box_within_volume', '    raise PartialHeartDetectionException(HEART_DETECTION_ERROR)', 'fetch.utils.PartialHeartDetectionException: Failed to detect bounding box around heart']"
+          },
+          "prediction_model_contrast": null,
+          "prediction_model_gated": null
+        }
+      ],
+      "result_code": {
+        "status": "success",
+        "description": null,
+        "key": "success",
+        "priority": 0,
+        "top_level_result_code": ""
+      },
+      "max_genant_grade": null,
+      "alg_name": "HealthCCSng",
+      "alg_version": "1.0.13",
+      "is_normal": null,
+      "result_category_range": "100-399",
+      "runtime_configuration": null,
+      "high_calcium_burden": true,
+      "calcium_burden_category": "moderate",
+      "calcium_burden_category_enum": "2",
+      "extra_fields": {},
+      "study_id": "214.1490261363.64900.21705.42107.90776995818651",
+      "is_pass": true,
+      "agatston_score": 210.68632799999995,
+      "study_instance_uid": "214.1490261363.64900.21705.42107.90776995818651"
+    },
+    "timestamp": "2023-06-22T07:45:33",
+    "priority": {
+      "shouldPrioritize": true,
+      "isFollowUp": false
+    },
+    "actualResultInterpretationAttributes": {
+      "key": null,
+      "normal": false,
+      "descriptionKey": "Moderate_Calcium_Burden",
+      "isNullRange": null,
+      "max_val": 400.0,
+      "severityColor": "moderatehigh",
+      "label": "Coronary Calcium Detection Category: Medium",
+      "min_val": 100.0,
+      "resultCategoryUS": "medium",
+      "severityPercent": 49.0,
+      "valueDisplayLabel": "400",
+      "result_category_range": "100-399",
+      "resultCategoryEU": "moderate"
+    },
+    "resultDescription": "Coronary Calcium Detection Category: Medium",
+    "hashedStudyID": "214.1490261363.64900.21705.42107.90776995818651"
+  },
+  "study": {
+    "patientMetadata": {
+      "BIRTH_DATE": "19590000",
+      "AGE": 52,
+      "ID": "02fa9b5ee9f41e50245991d3b1088193486bdba1afd4ff93b3674d920b5bae47",
+      "FULL_NAME": "8d3cd37ec75d2748efdcac7467993acaa272551dfa38b9d365c32980f41162db",
+      "SEX": "F",
+      "ISSUER_PATIENT_ID": 0
+    },
+    "studyTime": 0,
+    "modalitiesInStudy": [
+      "CT"
+    ],
+    "externStudyID": "214.1490261363.64900.21705.42107.90776995818651",
+    "hashedStudyID": "214.1490261363.64900.21705.42107.90776995818651",
+    "numberOfSeries": 7,
+    "institutionName": null,
+    "studyDescription": "CT Chest WO Cnt",
+    "accessionNumber": "ZEBRA",
+    "id": "214.1490261363.64900.21705.42107.90776995818651",
+    "studyDate": "19700101",
+    "numberOfDicoms": 499
+  },
+  "algName": "HealthCCSng",
+  "algVersion": "1.0.11",
+  "secondarySeries": {
+    "seriesId": "2.25.108885255614339416038015380264427561013",
+    "filesReferences": {
+      "files": [
+        {
+          "path": "/marketplace/2023062210220013/output/214.1490261363.64900.21705.42107.9077699581865138e2254a-b546-4aa9-86ce-f85c979d35f2.dcm"
+        },
+        {
+          "path": "/marketplace/2023062210220013/output/214.1490261363.64900.21705.42107.90776995818651b24aade3-7ab9-40af-a679-c0511a95d4d3.dcm"
+        },
+        {
+          "path": "/marketplace/2023062210220013/output/214.1490261363.64900.21705.42107.90776995818651b0972fa6-d7f5-4596-af55-bb2e333f8044.dcm"
+        },
+        {
+          "path": "/marketplace/2023062210220013/output/214.1490261363.64900.21705.42107.90776995818651e0f87199-686f-4f17-87cd-085b742b6360.dcm"
+        }
+      ]
+    }
+  }
+}

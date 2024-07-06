@@ -1,0 +1,45 @@
+{
+  "type": "mla-output-data",
+  "version": 1,
+  "data": [
+    {
+      "studyInstanceUid": "214.1490261363.64900.21705.42107.90776995818651",
+      "predictions": {
+        "cac": {
+          "category": 1
+        }
+      },
+      "files": [
+        {
+          "path": "##OUTPUT_FOLDER##/214.1490261363.64900.21705.42107.90776995818651951734eb-8550-4a6b-81c8-a3e205a8e118.dcm",
+          "pushToPACS": true
+        },
+        {
+          "path": "##OUTPUT_FOLDER##/214.1490261363.64900.21705.42107.907769958186517e1bf4bf-4749-4d34-bc15-25a90bccb493.dcm",
+          "pushToPACS": true
+        },
+        {
+          "path": "##OUTPUT_FOLDER##/214.1490261363.64900.21705.42107.90776995818651437528d3-e56f-4128-af94-d3c0dbc0ac85.dcm",
+          "pushToPACS": true
+        },
+        {
+          "path": "##OUTPUT_FOLDER##/214.1490261363.64900.21705.42107.907769958186516918cdb8-48b0-4bab-8486-68f875ef7161.dcm",
+          "pushToPACS": true
+        }
+      ],
+      "metrics": {
+        "category_range": "100-399",
+        "category": "medium",
+        "agatston_score": 210.68632799999995
+      }
+    },
+    {
+      "studyInstanceUid": "214.295952550.24230.21553.37296.227313667703977",
+      "predictions": {},
+      "metrics": {},
+      "error": {
+        "message": "Non compliant study: HealthCCSng could not analyze this study: patient age is under30 years old. error code: XER_ST_0002"
+      }
+    }
+  ]
+}

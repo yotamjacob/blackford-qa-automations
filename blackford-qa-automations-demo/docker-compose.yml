@@ -1,0 +1,7 @@
+version: '3'
+services:
+  alg-mock-manifest:
+    image: docker-il.zebra-med.com/alg-mock-manifest-4:1.0.50
+    ports:
+      - "8000:8000"
+

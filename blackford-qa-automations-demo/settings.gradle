@@ -1,0 +1,3 @@
+rootProject.name = 'blackford-marketplace-e2e'
+include 'service'
+

@@ -1,0 +1,34 @@
+spring:
+  profiles:
+    active: ost
+
+marketplace-e2e:
+  host: "marketplace-test.zebra-med.com"
+  hostMock: "marketplace-mock-test.zebra-med.com"
+  namespace: "marketplace-test"
+  container-directories-config:
+    - name: CONTAINER_RESULT_PATH
+      path: /%s/result
+    - name: CONTAINER_ERROR_RESULT_PATH
+      path: /%s/result/error
+    - name: CONTAINER_INPUT_DIRECTORY
+      path: /marketplace/%s/input/
+    - name: CONTAINER_OUTPUT_DIRECTORY
+      path: /marketplace/%s/output
+    - name: TMP_WORKSPACE_DIR
+      path: /marketplace/%s/tmp_workspace
+    - name: WORKSPACE_DIR
+      path: /marketplace/%s/input
+    - name: Z_CONFIG_DIR
+      path: /marketplace/%s/input/config
+    - name: IS_PROD
+      path: 'True'
+    - name: CONTAINER_NOTIFICATION_PATH
+      path: https://marketplace-mock-test.zebra-med.com:443
+    - name: WORKSPACE_DIRECTORY
+      path: /marketplace/%s/input
+  container-directories-handler:
+    uploadFilesServiceUrl: https://marketplace-uploader-test.zebra-med.com/upload
+    downloadFiledServiceUrl: https://marketplace-uploader-test.zebra-med.com/download?path={path}&filename={fileName}
+    listFilesServiceUrl: https://marketplace-uploader-test.zebra-med.com/jfiles?path={path}
+    deleteFilesServiceUrl: https://marketplace-uploader-test.zebra-med.com/delete_folder

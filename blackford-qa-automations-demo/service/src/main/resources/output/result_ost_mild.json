@@ -1,0 +1,25 @@
+{
+  "type": "mla-output-data",
+  "version": 1,
+  "data": [
+    {
+      "studyInstanceUid": "214.503392905.51952.22243.41514.148536297145021",
+      "files": [
+        {
+          "path": "##OUTPUT_FOLDER##/214.503392905.51952.22243.41514.148536297145021.dcm",
+          "pushToPACS": true
+        },
+        {
+          "path": "##OUTPUT_FOLDER##/214.503392905.51952.22243.41514.148536297145021.dcm",
+          "pushToPACS": true
+        }
+      ],
+      "metrics": {
+        "vcf": "T1, T2, T3, T4, T5, T6, T7, T8, T9, T10, T11, T12",
+        "per_severity_textual_summary": "Mild compression fracture at T11, T12. \nLow bone density at T12.",
+        "high_level_textual_summary": "Vertebral compression fracture at T11, T12. Low bone density at T12, consider further workup and treatment for osteoporosis",
+        "textual_summary": "T11:Mild compression fracture with 20% height loss \nT12:Mild compression fracture with 20% height loss and low bone density of 97 HU, suspicious for osteoporosis"
+      }
+    }
+  ]
+}

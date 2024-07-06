@@ -1,0 +1,61 @@
+{
+  "type": "mla-output-data",
+  "version": 1,
+  "data": [
+    {
+      "studyInstanceUid": "214.725652907.30706.22764.48663.16532264514316",
+      "predictions": {
+        "cac": {
+          "category": 0
+        }
+      },
+      "files": [
+        {
+          "path": "/marketplace/output/214.725652907.30706.22764.48663.16532264514316.dcm",
+          "pushToPACS": true
+        },
+        {
+          "path": "/marketplace/output/214.725652907.30706.22764.48663.16532264514316.dcm",
+          "pushToPACS": true
+        },
+        {
+          "path": "/marketplace/output/214.725652907.30706.22764.48663.16532264514316.dcm",
+          "pushToPACS": true
+        },
+        {
+          "path": "/marketplace/output/214.725652907.30706.22764.48663.16532264514316.dcm",
+          "pushToPACS": true
+        },
+        {
+          "path": "/marketplace/output/214.725652907.30706.22764.48663.16532264514316.dcm",
+          "pushToPACS": true
+        },
+        {
+          "path": "/marketplace/output/214.725652907.30706.22764.48663.16532264514316.dcm",
+          "pushToPACS": true
+        },
+        {
+          "path": "/marketplace/output/214.725652907.30706.22764.48663.16532264514316.dcm",
+          "pushToPACS": true
+        },
+        {
+          "path": "/marketplace/output/214.725652907.30706.22764.48663.16532264514316.dcm",
+          "pushToPACS": true
+        },
+        {
+          "path": "/marketplace/output/214.725652907.30706.22764.48663.16532264514316.dcm",
+          "pushToPACS": true
+        },
+        {
+          "path": "/marketplace/output/214.725652907.30706.22764.48663.16532264514316.dcm",
+          "pushToPACS": true
+        }
+      ],
+      "metrics": {
+        "category_range": "0-99",
+        "category": "low",
+        "agatston_score": 13.758544921875
+      }
+    }
+  ]
+}

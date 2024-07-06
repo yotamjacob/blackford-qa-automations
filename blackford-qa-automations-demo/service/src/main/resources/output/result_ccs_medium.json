@@ -1,0 +1,57 @@
+{
+  "type": "mla-output-data",
+  "version": 1,
+  "data": [
+    {
+      "studyInstanceUid": "214.1537738950.24610.22417.38331.274769846145442",
+      "predictions": {
+        "cac": {
+          "category": 1
+        }
+      },
+      "files": [
+        {
+          "path": "##OUTPUT_FOLDER##/214.1537738950.24610.22417.38331.274769846145442.dcm",
+          "pushToPACS": true
+        },
+        {
+          "path": "##OUTPUT_FOLDER##/214.1537738950.24610.22417.38331.274769846145442.dcm",
+          "pushToPACS": true
+        },
+        {
+          "path": "##OUTPUT_FOLDER##/214.1537738950.24610.22417.38331.274769846145442.dcm",
+          "pushToPACS": true
+        },
+        {
+          "path": "##OUTPUT_FOLDER##/214.1537738950.24610.22417.38331.274769846145442.dcm",
+          "pushToPACS": true
+        },
+        {
+          "path": "##OUTPUT_FOLDER##/214.1537738950.24610.22417.38331.274769846145442.dcm",
+          "pushToPACS": true
+        },
+        {
+          "path": "##OUTPUT_FOLDER##/214.1537738950.24610.22417.38331.274769846145442.dcm",
+          "pushToPACS": true
+        },
+        {
+          "path": "##OUTPUT_FOLDER##/214.1537738950.24610.22417.38331.274769846145442.dcm",
+          "pushToPACS": true
+        },
+        {
+          "path": "##OUTPUT_FOLDER##/214.1537738950.24610.22417.38331.274769846145442.dcm",
+          "pushToPACS": true
+        },
+        {
+          "path": "##OUTPUT_FOLDER##/214.1537738950.24610.22417.38331.274769846145442.dcm",
+          "pushToPACS": true
+        }
+      ],
+      "metrics": {
+        "category_range": "100-399",
+        "category": "medium",
+        "agatston_score": 259.1400146484375
+      }
+    }
+  ]
+}
